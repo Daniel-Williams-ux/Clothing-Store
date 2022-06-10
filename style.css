@@ -1,4 +1,21 @@
-html, body {
-  height: 100%;
-  width: 100%;
+/**
+* These removes default spacings in the browser 
+**/
+* {
+  margin: 0;
+  paddind: 0;
+  border-sizing: border-box;
+}
+
+body{
+  font-family: sans-sarif;
+}
+
+.navbar {
+  display: flex; /*following flex box rule*/
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: 0b132b;
+  color: #ffffff;
+  padding: 25px 60px;/*top/bottom && left/right*/
 }
