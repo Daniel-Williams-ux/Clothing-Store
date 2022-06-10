@@ -19,3 +19,23 @@ body{
   color: #ffffff;
   padding: 25px 60px;/*top/bottom && left/right*/
 }
+
+.cart {
+  position: relative;/*positions the value close to the cart*/
+  background-color: #ffffff;
+  color: d90429;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.cartAmount {
+  position: absolute;/*positions the value at far right corner*/
+  top: -15;
+  right: -10;
+  font-size: 16px;
+  background-color: green;
+  color: white;
+  padding: 3px;
+   border-radius: 3px;
+}
